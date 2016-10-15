@@ -1,6 +1,6 @@
 package frc.team236.pid;
 
-import frc.team236.ticktock.Tickable;
+import frc.team236.ticktock.lib.Tickable;
 
 public class PID implements Tickable {
 	private volatile PIDParameters gains;
